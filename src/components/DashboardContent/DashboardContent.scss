@@ -7,6 +7,35 @@
   header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 0.5rem;
+
+    .content__title-wrapper {
+      display: flex;
+    }
+
+    .content__title-wrapper label {
+      display: inline-block;
+      color: var(--color-primary);
+      margin-right: 2.5rem;
+      // instructor sect margin-right: 1rem;
+      font-size: 1.75rem;
+    }
+
+    .content__title h1 {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .content__title p {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .content__title p span {
+      display: inline-block;
+      margin-left: 0.5rem;
+      color: red;
+      font-size: 1.2rem;
+    }
   }
 }
