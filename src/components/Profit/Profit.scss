@@ -1,0 +1,70 @@
+.profit__container {
+  .profit {
+    display: grid;
+    grid-template-columns: 30% auto;
+
+    .profit__header {
+      font-size: 1.4rem;
+      color: var(--text-primary);
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .profit__card-content {
+      background: #fff;
+      box-shadow: var(--shadow);
+      text-align: center;
+      border-radius: 15px;
+      padding: 1rem 2rem;
+
+      img {
+        width: 11.25rem;
+        margin: 1.5rem 0;
+      }
+    }
+
+    .profit__card-content .profit__info {
+      margin-bottom: 1rem;
+
+      h1 {
+        font-weight: 600;
+        margin-top: 0.2rem;
+        font-size: 1.5rem;
+        color: #555;
+      }
+
+      h1,
+      h3 {
+        color: var(--text-primary);
+      }
+
+      h1 small {
+        font-weight: inherit;
+        font-size: 1rem;
+      }
+    }
+
+    .profit__card-content .profit__sum {
+      background-color: var(--main-accent);
+      border: 1px solid var(--color-primary);
+      padding: 1rem;
+      border-radius: 10px;
+
+      h2 {
+        font-size: 1.4rem;
+        color: var(--text-primary);
+      }
+
+      h4 {
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 0.5rem;
+      }
+
+      h2,
+      h4 {
+        font-weight: 600;
+      }
+    }
+  }
+}
