@@ -1,13 +1,21 @@
 .button__container {
   .button {
-    // margin-top: 2rem;
-    padding: 0.7rem 1rem;
+    padding: 0.85rem 2rem;
     border: none;
     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
   }
 
   .button--main {
     background-color: var(--color-primary);
     color: #fff;
+
+    span {
+      font-size: 1.2rem;
+      display: inline-block;
+      margin-right: 0.7rem;
+    }
   }
 }
