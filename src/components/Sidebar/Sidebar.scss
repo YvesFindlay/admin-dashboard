@@ -1,6 +1,7 @@
 .sidebar {
-  flex-basis: 345px;
+  flex-basis: 360px;
   height: 100%;
+  // instructor set padding: 1rem 1.5rem;
   padding: 1rem 1.5rem;
   box-sizing: border-box;
   // position: fixed;
@@ -30,15 +31,6 @@
 
     &::-webkit-scrollbar-thumb:hover {
       background-color: #555;
-    }
-
-    .sidebar__brand {
-      height: 4.375rem;
-
-      display: flex;
-      align-items: center;
-
-      // instructor got rid of all lines above
     }
 
     h2 {
