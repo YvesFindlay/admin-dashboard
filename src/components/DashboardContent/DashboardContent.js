@@ -4,6 +4,8 @@ import Button from "../../components/Button/Button";
 
 import "./DashboardContent.scss";
 
+import Statistics from "../Statistics/Statistics";
+
 const DashboardContent = () => {
   return (
     <div className="content">
@@ -22,6 +24,7 @@ const DashboardContent = () => {
         </div>
         <Button content="Upload" />
       </header>
+      <Statistics />
     </div>
   );
 };
