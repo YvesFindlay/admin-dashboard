@@ -1,11 +1,10 @@
 .container {
   height: 100vh;
   background-color: var(--color-bg-primary);
-  display: flex;
   overflow-x: hidden;
   font-size: 1.2rem;
-}
 
-#menu-toggle {
-  display: none;
+  #menu-toggle {
+    display: none;
+  }
 }
