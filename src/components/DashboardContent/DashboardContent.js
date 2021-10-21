@@ -8,11 +8,11 @@ const DashboardContent = () => {
   return (
     <div className="content">
       <header>
-        <div className="content__title">
+        <div className="content__title-wrapper">
           <label htmlFor="">
             <span className="las la-bars"></span>
           </label>
-          <div>
+          <div className="content__title">
             <h1>Analytics</h1>
             <p>
               Display analytics about your channel{" "}
