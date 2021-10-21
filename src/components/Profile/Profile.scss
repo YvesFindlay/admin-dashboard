@@ -1,7 +1,7 @@
 .profile {
   display: grid;
   grid-template-columns: 4.5rem auto;
-  column-gap: 0.5rem; // added this myself
+  column-gap: 0.95rem; // may remove later -  column-gap: 0.5rem initially
   align-items: center;
   border: 2px solid var(--main-accent);
   padding: 0.1rem 0.7rem;
