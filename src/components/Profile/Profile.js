@@ -12,8 +12,8 @@ const Profile = () => {
         <div className="profile__text">
           <h4>Ralph Anderson</h4>
           <small>1029-3344-444</small>
-          <span className="las la-arrow-down" />
         </div>
+        <span className="las la-angle-double-down" />
       </div>
     </div>
   );

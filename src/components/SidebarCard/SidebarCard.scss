@@ -1,0 +1,45 @@
+.card {
+  background-color: var(--main-accent);
+  text-align: center;
+  // he set padding: 1rem
+  padding: 1.8rem 1.5rem;
+  border-radius: 15px;
+  margin-top: 2rem;
+  box-shadow: var(--shadow);
+
+  .card__icon {
+    margin-bottom: 0.8rem;
+
+    span {
+      display: inline-block;
+      color: var(--color-primary);
+      font-size: 8rem;
+    }
+
+    & + div {
+      margin-bottom: 1.2rem;
+    }
+
+    & + div p {
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    & + div .button {
+      margin-top: 2rem;
+      padding: 0.8rem 1rem;
+      border: none;
+      border-radius: 10px;
+    }
+
+    & + div .button--main {
+      background-color: var(--color-primary);
+      color: #fff;
+    }
+
+    & + div .button--block {
+      display: block;
+      width: 100%;
+    }
+  }
+}

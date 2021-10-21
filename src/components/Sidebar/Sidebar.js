@@ -1,6 +1,8 @@
 import React from "react";
 
 import Profile from "../Profile/Profile";
+import Menu from "../Menu/Menu";
+import SidebarCard from "../SidebarCard/SidebarCard";
 
 import "./Sidebar.scss";
 
@@ -8,16 +10,18 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__container">
-        <div className="brand">
-          <h3>
+        <div className="sidebar__brand">
+          <h2>
             <span>
               {" "}
-              <i class="lab la-staylinked"></i>
-              Company 1
+              <i className="lab la-staylinked"></i>
             </span>
-          </h3>
+            Erronium
+          </h2>
         </div>
         <Profile />
+        <Menu />
+        <SidebarCard />
       </div>
     </div>
   );

@@ -1,8 +1,23 @@
 .profile {
+  display: grid;
+  grid-template-columns: 4.5rem auto;
+  column-gap: 0.5rem; // added this myself
+  align-items: center;
+  border: 2px solid var(--main-accent);
+  padding: 0.1rem 0.7rem;
+  border-radius: 7px;
+  margin: 2.5rem 0;
+
   .profile__img-container {
     .profile__img {
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: auto;
     }
+  }
+
+  .profile__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
