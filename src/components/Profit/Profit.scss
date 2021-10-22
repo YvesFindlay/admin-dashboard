@@ -1,25 +1,30 @@
 .profit__container {
-  .profit {
-    display: grid;
-    grid-template-columns: 30% auto;
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-gap: 3rem;
 
-    .profit__header {
-      font-size: 1.4rem;
-      color: var(--text-primary);
-      font-weight: 600;
-      margin-bottom: 1rem;
+  @media screen and (max-width: 53.75rem) {
+    grid-template-columns: 100%;
+    order: 2;
+  }
+
+  .profit {
+    @media screen and (max-width: 53.75rem) {
+      order: 2;
     }
 
     .profit__card-content {
-      background: #fff;
-      box-shadow: var(--shadow);
+      border: 1px solid var(--main-accent);
       text-align: center;
       border-radius: 15px;
-      padding: 1rem 2rem;
+      padding: 2rem 0;
+      display: grid;
+      place-items: center;
 
       img {
         width: 11.25rem;
-        margin: 1.5rem 0;
+        margin: 1rem 0;
+        border-radius: 50%;
       }
     }
 
@@ -30,7 +35,7 @@
         font-weight: 600;
         margin-top: 0.2rem;
         font-size: 1.5rem;
-        color: #555;
+        color: var(--text-title);
       }
 
       h1,
@@ -45,9 +50,10 @@
     }
 
     .profit__card-content .profit__sum {
-      background-color: var(--main-accent);
-      border: 1px solid var(--color-primary);
+      border: 1px solid var(--main-accent);
       padding: 1rem;
+      margin-top: 1rem;
+      width: calc(100% - 5rem);
       border-radius: 10px;
 
       h2 {
@@ -57,7 +63,7 @@
 
       h4 {
         font-size: 1rem;
-        color: #555;
+        color: var(--text-title);
         margin-bottom: 0.5rem;
       }
 
