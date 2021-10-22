@@ -1,6 +1,6 @@
 # React Admin Dashboard
 
-This project is an emulation of an Admin dashboard to a social media platform in React. The main objective is of this project is to practice and enhance my skills in developing responsive layouts.
+This project is an emulation of a responsive Admin dashboard to a social media platform in React. The main objective is of this project is to practice and enhance my skills in developing responsive layouts.
 
 ## Libraries and Plugins
 
