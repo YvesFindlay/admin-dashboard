@@ -11,18 +11,20 @@ const DashboardContent = () => {
     <div className="content">
       <header>
         <div className="content__title-wrapper">
-          <label htmlFor="">
+          <label htmlFor="menu-toggle">
             <span className="las la-bars"></span>
           </label>
           <div className="content__title">
-            <h1>Analytics</h1>
+            <h1>Summary</h1>
             <p>
-              Display analytics about your channel{" "}
-              <span className="las la-chart-line"> </span>{" "}
+              This weekly summary report is as follows:{" "}
+              <span className="las la-bell"> </span>{" "}
             </p>
           </div>
         </div>
-        <Button content="Upload" />
+        <div className="content__button">
+          <Button content="Upload" />
+        </div>
       </header>
       <Statistics />
     </div>
