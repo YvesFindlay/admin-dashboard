@@ -1,10 +1,13 @@
 .statistic {
-  box-shadow: var(--shadow);
+  border: 1px solid var(--main-accent);
   padding: 1.5rem;
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  //   padding-left: 2rem;
+
+  @media screen and (max-width: 36.25rem) {
+    justify-content: flex-start;
+  }
 
   .statistic__icon {
     width: 2.5rem;
@@ -13,32 +16,34 @@
     display: grid;
     place-items: center;
     margin-right: 0.8rem;
+    border: 1px solid var(--main-accent);
+
+    @media screen and (max-width: 36.25rem) {
+      margin: 0 1.5rem;
+      align-self: center;
+    }
   }
 
   .first-child {
-    background-color: #dce5ff;
     color: #6883db;
   }
 
   .second-child {
-    background-color: #ebf7f5;
     color: red;
   }
 
   .third-child {
-    background-color: #ebf7f5;
     color: #2ec3a3;
   }
 
   .fourth-child {
-    background-color: var(--main-accent);
     color: var(--color-primary);
   }
 
   .statistic__info {
     h4 {
       font-weight: 400;
-      color: #555;
+      color: var(--text-title);
       font-size: 0.95rem;
       margin-bottom: 0.5rem;
     }
@@ -56,14 +61,16 @@
       .text-success {
         color: #2ec3a3;
       }
+
+      .text-primary {
+        color: var(--text-primary);
+      }
     }
 
     h1 small {
       color: var(--text-primary);
       font-weight: 700;
       font-size: 0.8rem;
-      //   margin-top: 1.75rem;
-      //   margin-left: 0.5rem;
     }
   }
 
