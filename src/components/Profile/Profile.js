@@ -6,14 +6,17 @@ const Profile = () => {
   return (
     <div className="profile">
       <div className="profile__img-container">
-        <img className="profile__img" src="logo192.png" alt="Profile" />
+        <img
+          className="profile__img"
+          src="undraw_profile_pic_ic5t 1.jpg"
+          alt="Profile"
+        />
       </div>
       <div className="profile__content">
         <div className="profile__text">
-          <h4>Ralph Anderson</h4>
-          <small>1029-3344-444</small>
+          <h4>Yves Findlay</h4>
+          <small>373839389</small>
         </div>
-        <span className="las la-angle-double-down" />
       </div>
     </div>
   );
