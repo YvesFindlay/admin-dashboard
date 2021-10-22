@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap");
 
 :root {
-  --color-primary: #396aff;
-  --color-bg-primary: #fbfefd;
-  --color-bg-secondary: #dce5ff;
+  --color-primary: #36c5f0;
+  --color-bg-primary: #283149;
   --main-accent: #e9eefd;
-  --text-primary: #4b5876;
+  --text-primary: #f7f7f7;
+  --text-title: #f7f7f7;
+  --text-highlight: #7ddaf5;
   --shadow: rgba(17, 17, 26, 0.1) 2px 2px 16px;
 }
 
