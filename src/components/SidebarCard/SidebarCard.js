@@ -6,11 +6,11 @@ const SidebarCard = () => {
   return (
     <div className="card">
       <div className="card__icon">
-        <span className="lab la-codiepie"></span>
+        <span className="la la-shield"></span>
       </div>
       <div>
-        <h4>Make Adsense</h4>
-        <p>Add adds to your videos to earn money</p>
+        <h4>Go Premium!</h4>
+        <p>Get additional insight into your audience</p>
         <button className="button button--main button--block">
           Create now
         </button>

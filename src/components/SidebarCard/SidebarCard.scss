@@ -1,11 +1,9 @@
 .card {
-  background-color: var(--main-accent);
   text-align: center;
-  // initially set padding: 1rem
   padding: 1.8rem 1.5rem;
   border-radius: 15px;
   margin-top: 2rem;
-  box-shadow: var(--shadow);
+  border: 1px solid var(--main-accent);
 
   .card__icon {
     margin-bottom: 0.8rem;
@@ -22,7 +20,7 @@
 
     & + div p {
       font-size: 0.8rem;
-      color: #555;
+      color: var(--text-title);
     }
 
     & + div .button {
