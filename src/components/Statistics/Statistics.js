@@ -8,7 +8,7 @@ import "./Statistics.scss";
 const Statistics = () => {
   return (
     <main>
-      <h3 className="statistics__header">Statistics</h3>
+      <h3 className="section-header">Statistics</h3>
       <section>
         <div className="statistics">
           <Statistic
@@ -44,8 +44,8 @@ const Statistics = () => {
             statisticClassName="fourth-child"
           />
         </div>
+        <Profit />
       </section>
-      <Profit />
     </main>
   );
 };
