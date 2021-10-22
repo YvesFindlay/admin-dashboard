@@ -16,8 +16,14 @@ li {
   }
 
   .active {
-    background-color: var(--main-accent);
+    background-color: var(--color-primary);
+    border: 1px solid var(--main-accent);
     padding: 0.8rem;
     border-radius: 7px;
+    color: red;
+
+    span {
+      color: var(--main-accent);
+    }
   }
 }
