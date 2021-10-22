@@ -1,0 +1,23 @@
+.profile {
+  display: grid;
+  grid-template-columns: 4.5rem auto;
+  column-gap: 2rem;
+  align-items: center;
+  padding: 2rem 0.3rem 1rem;
+  border-radius: 7px;
+  margin: 2.5rem 0;
+
+  .profile__img-container {
+    .profile__img {
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+
+  .profile__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,58 @@
+.graph__content {
+  border: 1px solid var(--main-accent);
+  border-radius: 12px;
+  padding: 1rem;
+  background-color: var(--color-bg-primary);
+
+  .graph__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .graph__icon-wrapper {
+      display: flex;
+      align-items: center;
+    }
+
+    .graph__icon {
+      display: grid;
+      place-items: center;
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 7px;
+      background-color: #eee;
+      font-size: 1.2rem;
+      margin-right: 0.8rem;
+
+      @media screen and (max-width: 18.75rem) {
+        display: none;
+      }
+
+      .views {
+        color: #6883db;
+      }
+
+      .watch-time {
+        color: #2ec3a3;
+      }
+    }
+
+    select {
+      background-color: #fbfefd;
+      border-radius: 10px;
+      height: 2.1875rem;
+      padding: 0.5rem 1rem;
+      border: none;
+      outline: none;
+    }
+  }
+
+  .graph__canvas {
+    #revenue-graph {
+      display: block;
+      width: 100%;
+      height: 51px;
+      transition: width 0.3s;
+    }
+  }
+}

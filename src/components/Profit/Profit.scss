@@ -1,0 +1,76 @@
+.profit__container {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-gap: 3rem;
+
+  @media screen and (max-width: 53.75rem) {
+    grid-template-columns: 100%;
+    order: 2;
+  }
+
+  .profit {
+    @media screen and (max-width: 53.75rem) {
+      order: 2;
+    }
+
+    .profit__card-content {
+      border: 1px solid var(--main-accent);
+      text-align: center;
+      border-radius: 15px;
+      padding: 2rem 0;
+      display: grid;
+      place-items: center;
+
+      img {
+        width: 11.25rem;
+        margin: 1rem 0;
+        border-radius: 50%;
+      }
+    }
+
+    .profit__card-content .profit__info {
+      margin-bottom: 1rem;
+
+      h1 {
+        font-weight: 600;
+        margin-top: 0.2rem;
+        font-size: 1.5rem;
+        color: var(--text-title);
+      }
+
+      h1,
+      h3 {
+        color: var(--text-primary);
+      }
+
+      h1 small {
+        font-weight: inherit;
+        font-size: 1rem;
+      }
+    }
+
+    .profit__card-content .profit__sum {
+      border: 1px solid var(--main-accent);
+      padding: 1rem;
+      margin-top: 1rem;
+      width: calc(100% - 5rem);
+      border-radius: 10px;
+
+      h2 {
+        font-size: 1.4rem;
+        color: var(--text-primary);
+      }
+
+      h4 {
+        font-size: 1rem;
+        color: var(--text-title);
+        margin-bottom: 0.5rem;
+      }
+
+      h2,
+      h4 {
+        font-weight: 600;
+      }
+    }
+  }
+}
